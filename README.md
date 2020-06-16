@@ -32,7 +32,7 @@ Operators either modify the behavior of one command or chain together multiple c
 6. Semicolon: (";" ("echo" "one") ("echo" "two")) - Execute two commands in sequence. Can also occur with one argument.
 
 
-# Implementation
+## Implementation
 The general strategy for running any operator is to
 - first fork()
 - In the parent, wait for the child
